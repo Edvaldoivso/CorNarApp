@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+/*Author:Edvaldo
+18/04/2020
+*/
+
+
+
+body{
+    background-color: yellow;
+
+}
+
+
+
+#inicio{
+background-color: yellow;
+background-image: url("../img/icon.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+height: 900px;
+width: 100%;
+position: absolute;
+
+
+
+}
+
+
+
+#aviso{
+
+    display:none;
+    color:red;
+    background-color: sandybrown;
+    top:20%;
+    position: absolute;
+
+}
+
+
+
+#dContainer{
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+#dCentro{
+    margin-top:25%;
+    height: 350px;
+    width: 100%;
+   
+}
+
+#radargif{
+
+    position:relative;
+    border-radius: 50%;
+    height: 50%;
+    width: 100%;
+    display: none;
+}
+
+#cornoTP{
+
+    position:relative;
+    border-radius: 10%;
+    border:1px solid black;
+    height: 50%;
+    width: 100%;
+   
+}
+
+
+
+
+#bBotao{
+
+    margin-top:15%;
+    background-color: green;
+    border-radius: 10%;
+    height: 100%;
+    width: 30%;  
+    border-radius: 100%; 
+    padding: 3%; 
+    
+    
+    
+
+
+}
+
+p{
+
+font-size:2em;
+position:center;
+
+}
